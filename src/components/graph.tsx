@@ -62,8 +62,7 @@ const BarChart: React.FC<BarChartProps> = ({username,leetcodeUsername, githubCom
 
   const shareHandler = () => {
     const currentUrl = window.location.href
-    const description = `Flexing my dev skills on DevFlex ${currentUrl}`;
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(description)}`;
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${currentUrl}`;
 
     window.open(twitterUrl, '_blank');
   }
