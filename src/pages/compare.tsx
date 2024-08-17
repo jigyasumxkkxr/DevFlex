@@ -1,4 +1,3 @@
-
 import { useSearchParams } from "react-router-dom"
 import { Nav } from "../components/nav";
 import { CompareData } from "../components/compare";
