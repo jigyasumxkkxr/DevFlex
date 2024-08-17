@@ -15,7 +15,7 @@ export const Landing = () => {
                     <p className="text-white text-5xl font-extrabold">{"/>"}</p>
                 </div>
                 <div>
-                    <p className="text-gray-300 font-light">Show off your dev skills and share them with your friends.</p>
+                    <p className="text-gray-300 font-light text-center">Show off your dev skills and share them with your friends.</p>
                 </div>
                 </div>
                 <UsernameCard />

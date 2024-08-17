@@ -9,7 +9,7 @@ export const Nav = () => {
         <div className="bg-black flex justify-between px-10 py-3 items-center">
             <BubbleText />
             <div>
-            <button className="relative inline-block h-10 font-semibold group py-1.5 px-4 " onClick={handleOpenNewTab}>
+            <button className="relative inline-block h-8 sm:h-10 font-semibold group px-4 " onClick={handleOpenNewTab}>
                 <span className="absolute inset-0 w-full h-full transition duration-400 ease-out transform translate-x-1 translate-y-1 bg-white group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                 <span className="absolute inset-0 w-full h-full bg-white border border-black group-hover:bg-white"></span>
                 <span className="relative text-black flex items-center gap-1">

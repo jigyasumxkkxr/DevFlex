@@ -28,7 +28,7 @@ const GitHubProfile: React.FC<GitHubUserProps> = ({ username }) => {
   else {
     return (
         <div className="flex items-center">
-          <img src={profilePic || ''} alt={`${username}'s profile`} className="w-32 h-32 rounded-full" />
+          <img src={profilePic || ''} alt={`${username}'s profile`} className="w-20 sm:w-32 h-20 sm:h-32 rounded-full" />
         </div>
       );
   }

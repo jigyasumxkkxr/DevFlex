@@ -46,7 +46,7 @@ export const BubbleText = () => {
   }, []);
 
   return (
-    <h2 className="hover-text text-center text-5xl font-thin text-white">
+    <h2 className="hover-text text-center text-3xl sm:text-5xl font-thin text-white">
       <Link to={"/"} ><Text>DevFlex</Text></Link>
     </h2>
   );
