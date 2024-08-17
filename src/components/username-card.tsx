@@ -63,25 +63,31 @@ export const UsernameCard = () => {
       }}
       className="relative h-2/5 w-1/3 rounded-xl border bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"
     >
-        <div className="flex flex-col justify-around h-full">
-            <p className="text-black text-2xl font-bold text-center pt-2">Enter Profile Username</p>
-            <div className="flex flex-col gap-4">
-                <div
-                 className="flex w-11/12 mx-auto gap-2 items-center rounded px-2">
-                    <img src={logo} alt="" className="h-6 w-6" />
-                    <input onChange={(e) => {
-                        setLeetcodeUsername(e.target.value)
-                    }} type="text" placeholder="Leetcode Username" className="w-full text-gray-700 px-2 rounded h-8 "/>
-                </div>
-                <div className="flex w-11/12 mx-auto gap-2 items-center rounded px-2">
-                    <img src={logo2} alt="" className="h-6 w-6 bg-white" />
-                    <input onChange={(e) => {
-                        setGithubUsername(e.target.value)
-                    }} type="text" placeholder="Github Username" className="w-full text-gray-700 px-2 rounded h-8"/>
-                </div>
-            </div>
-            
-            <button onClick={SubmitHandeler} className="w-11/12 mx-auto h-9 rounded-lg bg-black text-white text-lg font-bold shadow-sm shadow-white">Submit</button>
+        <div
+          style={{
+            transform: "translateZ(50px)",
+            transformStyle: "preserve-3d",
+          }} className="flex flex-col justify-around h-full">
+          <div className="flex flex-col justify-around h-full">
+              <p className="text-black text-2xl font-bold text-center pt-2">Enter Profile Username</p>
+              <div className="flex flex-col gap-4">
+                  <div
+                  className="flex w-11/12 mx-auto gap-2 items-center rounded px-2">
+                      <img src={logo} alt="" className="h-6 w-6" />
+                      <input onChange={(e) => {
+                          setLeetcodeUsername(e.target.value)
+                      }} type="text" placeholder="Leetcode Username" className="w-full text-gray-700 px-2 rounded h-8 "/>
+                  </div>
+                  <div className="flex w-11/12 mx-auto gap-2 items-center rounded px-2">
+                      <img src={logo2} alt="" className="h-6 w-6 bg-white" />
+                      <input onChange={(e) => {
+                          setGithubUsername(e.target.value)
+                      }} type="text" placeholder="Github Username" className="w-full text-gray-700 px-2 rounded h-8"/>
+                  </div>
+              </div>
+              
+              <button onClick={SubmitHandeler} className="w-11/12 mx-auto h-9 rounded-lg bg-black text-white text-lg font-bold shadow-sm shadow-white">Submit</button>
+          </div>
         </div>
       
     </motion.div>

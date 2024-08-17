@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export const BubbleText = () => {
   useEffect(() => {
@@ -46,7 +47,7 @@ export const BubbleText = () => {
 
   return (
     <h2 className="hover-text text-center text-5xl font-thin text-white">
-      <Text>DevFlex</Text>
+      <Link to={"/"} ><Text>DevFlex</Text></Link>
     </h2>
   );
 };
