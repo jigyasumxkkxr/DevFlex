@@ -61,7 +61,7 @@ export const UsernameCard = () => {
         transformStyle: "preserve-3d",
         transform,
       }}
-      className="relative h-2/5 w-2/3 sm:w-1/3 rounded-xl border bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"
+      className="relative h-2/5 w-fit px-3 sm:px-8 mx-6 sm:w-1/3 rounded-xl border bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"
     >
         <div
           style={{

@@ -5,7 +5,7 @@ import logo from "../assets/Vector.svg"
 
 export const Landing = () => {
     return (
-        <div className="absolute inset-0 h-full w-full bg-black bg-[radial-gradient(#ffffff20_1px,transparent_1px)] [background-size:24px_24px] flex flex-col">
+        <div className="absolute inset-0 h-full w-screen bg-black bg-[radial-gradient(#ffffff20_1px,transparent_1px)] [background-size:24px_24px] flex flex-col">
             <Nav />
             <div className=" flex flex-col justify-center items-center flex-grow gap-16">
                 <div className="flex flex-col items-center gap-3">
