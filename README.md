@@ -41,11 +41,3 @@ Track your coding journey with real-time commit stats and LeetCode solutions. Sh
  - [Leetcode api](https://github.com/alfaarghya/alfa-leetcode-api)
 
 
-
-## Related
-
-Here are my MERN project
-
-[Payments-Master](https://payments.jigyasumakkxr.online/)
-
-[Blogging Website](https://blog.jigyasumakkxr.online/)
